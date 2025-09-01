@@ -12,7 +12,7 @@
 </p>
 
 <p align="justify">
-  <strong> Multimodal embedding distributions across various distillation methods. </strong>:
+  <strong> Multimodal embedding distributions across various distillation methods </strong>:
   We extract image and text embeddings from a finetuned CLIP and project them into a shared representation space using DOSNES. 
   Red triangles and blue circles denote image and text embeddings, respectively. 
   Left: Embeddings from randomly sampled data in the original dataset exhibit a well-spread and modality-aligned distribution. 
