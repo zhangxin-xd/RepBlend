@@ -8,7 +8,7 @@
 > Zhejiang University, China 
 ## 📖 Introduction
 <p align="center">
-  <img src="imgs/problem_.png" alt="problem" title="problem" width="700">
+  <img src="problem_.png" alt="problem" title="problem" width="700">
 </p>
 
 <p align="justify">
