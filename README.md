@@ -32,7 +32,9 @@ To get started, follow these instructions to set up the environment and install 
     ```
 
 2. **Install required packages**:
-   You don’t need to create a new environment; simply ensure that you have compatible versions of CUDA and PyTorch installed.
+    ```
+    Conda  RepBlend
+    ```
 ---
 
 ## 🚀 Usage
@@ -99,10 +101,13 @@ we also provide the `.sh` script in the `sh` directory.
 ## 📊 Results
 
 Our experiments demonstrate the effectiveness of the proposed approach across various benchmarks. 
-
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="imgs/results1.png" alt="Results 1" width="400"/>
-    <img src="imgs/results2.png" alt="Results 2" width="400"/>
+    <img src="imgs/results 1.png" alt="Results 1" width="500"/>
+</div>
+<br>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="imgs/table 1.png" alt="table 1" width="250"/>
+    <img src="imgs/table 2.png" alt="table 2" width="250"/>
 </div>
 
 For detailed experimental results and further analysis, please refer to the full paper.
@@ -114,16 +119,17 @@ For detailed experimental results and further analysis, please refer to the full
 If you find this code useful in your research, please consider citing our work:
 
 ```bibtex
-@inproceedings{ufc2025iclr,
-    title={Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator},
-    author={Zhang, Xin and Du, Jiawei and Liu, Ping and Zhou, Joey Tianyi},
-    booktitle={Proc. Int. Conf. Learn. Represent. (ICLR)},
+@inproceedings{RepBlend2025neurips,
+    title={Beyond Modality Collapse: Representations Blending for Multimodal Dataset Distillation},
+    author={Zhang, Xin and Zhang, Ziruo, and Du, Jiawei and Liu, Zuozhu and Zhou, Joey Tianyi},
+    booktitle={Adv. Neural Inf. Process. Syst. (NeurIPS)},
     year={2025}
 }
 ```
 ---
 ## 🎉 Reference
-Our code has referred to previous work:
-
-[LoRS: Low-Rank Similarity Mining](https://github.com/silicx/LoRS_Distill)
+Our code has referred to previous works:
+- [LoRS: Low-Rank Similarity Mining](https://github.com/silicx/LoRS_Distill)
+- [Vision-Language Dataset Distillation](https://github.com/princetonvisualai/multimodal_dataset_distillation)
+- [Scaling Up Dataset Distillation to ImageNet-1K with Constant Memory (TESLA)](https://github.com/justincui03/tesla)
 
