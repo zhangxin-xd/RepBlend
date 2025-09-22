@@ -33,13 +33,17 @@ To get started, follow these instructions to set up the environment and install 
 
 2. **Install required packages**:
     ```
-    Conda  RepBlend
+    conda create -n RepBlend python=3.10
+    conda activate RepBlend
+    pip install -r requirements.txt
     ```
 ---
 
 ## 🚀 Usage
 
 Here’s how to use RepBlend for Multimodal Dataset Distillation:
+### Pretrained weights
+The checkpoints for all experimental networks are available from their respective official repositories. For convenience, we have also provided them together [here](https://drive.google.com/drive/folders/1FVwpyANNMWMEvM8X5pLYQzgPoblqkmXh?usp=sharing).
 - **Preparation**：
     For ImageNet-1K, we use the pre-trained weights available in `torchvision`.  For CIFAR and Tiny-ImageNet, we provide the trained weights at this [link](https://drive.google.com/drive/folders/1dH96COYa4kCquQ4c6wEnt7QobGMl6M3N?usp=sharing).  Alternatively, you can train the models yourself by following the instructions in [Diversity-Driven-Synthesis](https://github.com/AngusDujw/Diversity-Driven-Synthesis).
 
