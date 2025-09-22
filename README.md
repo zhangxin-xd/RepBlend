@@ -44,10 +44,20 @@ To get started, follow these instructions to set up the environment and install 
 Here’s how to use RepBlend for Multimodal Dataset Distillation:
 ### Pretrained Weights
 The checkpoints for all experimental networks are available from their respective official repositories. For convenience, we have also provided them together [here](https://drive.google.com/drive/folders/1FVwpyANNMWMEvM8X5pLYQzgPoblqkmXh?usp=sharing).
-After downloading put them under `distill_utils/checkpoints/`.
+Once downloaded, put them in `distill_utils/checkpoints/`.
 
 ### Experimental Datasets
-The dataset hase been validated on various benchmarks, you can download from  their respective links. 
+The dataset hase been validated on various benchmarks, you can download from  their respective links. Once downloaded, put them in `distill_utils/data/`.
+| datasets | links| 
+|-----|-----|
+| Flickr30K | [images](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset), [annotations](https://drive.google.com/drive/folders/1qj3Se9GqalufkrhU0qN2KOMob5eyGkAc?usp=drive_link)|
+| COCO | [images](https://cocodataset.org/#download), [annotations](https://drive.google.com/drive/folders/1fnUHCyRsvsc27LPPoWxP4XvEiqZTV4hj?usp=sharing) |
+|LLaVA-cc3m|[images](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md), [annotations](https://drive.google.com/drive/folders/1b8S0sJmyqRaAioL9oZGeIW8_EPx0iAzi?usp=sharing)|
+
+### Generate Expert Buffer
+You can 
+
+
 
 
 - **Preparation**：
