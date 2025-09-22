@@ -62,12 +62,12 @@ You can generate expert trajectories by running the `sh/buffer.sh`, or alternati
 
 Our experiments demonstrate the effectiveness of the proposed approach across various benchmarks. 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="imgs/results 1.png" alt="Results 1" width="500"/>
+    <img src="imgs/results 1.png" alt="Results 1" width="600"/>
 </div>
 <br>
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="imgs/table 1.png" alt="table 1" width="250"/>
-    <img src="imgs/table 2.png" alt="table 2" width="250"/>
+    <img src="imgs/table 1.png" alt="table 1" width="300"/>
+    <img src="imgs/table 2.png" alt="table 2" width="300"/>
 </div>
 
 For detailed experimental results and further analysis, please refer to the full paper.
