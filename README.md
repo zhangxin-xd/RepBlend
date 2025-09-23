@@ -4,7 +4,8 @@
 > [Xin Zhang](https://zhangxin-xd.github.io/), Ziruo Zhang, [Jiawei Du](https://scholar.google.com/citations?user=WrJKEzEAAAAJ&hl=zh-CN), [Zuozhu Liu](https://person.zju.edu.cn/en/lzz), [Joey Tianyi Zhou](https://joeyzhouty.github.io/) <br>
 > Agency for Science, Technology, and Research (ASTAR), Singapore <br>
 > National University of Singapore, Singapore <br>
-> Zhejiang University, China 
+> Zhejiang University, China <br>
+[Huggingface 🤗](https://huggingface.co/xinxin66/RepBlend)
 ## 📖 Introduction
 <p align="center">
   <img src="imgs/problem.png" alt="problem" title="problem" width="700">
