@@ -41,7 +41,7 @@ To get started, follow these instructions to set up the environment and install 
 
 Here’s how to use RepBlend for Multimodal Dataset Distillation:
 
-First， download pretrained weights and datasets to corresponding foilders:
+First, download the pretrained weights and datasets and place them into their respective folders.
 ### Pretrained Weights
 The checkpoints for all experimental networks are available from their respective official repositories. For convenience, we have also provided them together [🤗 here](https://huggingface.co/xinxin66/RepBlend).
 Once downloaded, put them in `distill_utils/checkpoints/`.
