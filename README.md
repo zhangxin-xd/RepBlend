@@ -5,7 +5,6 @@
 > Agency for Science, Technology, and Research (ASTAR), Singapore <br>
 > National University of Singapore, Singapore <br>
 > Zhejiang University, China <br>
-[Huggingface 🤗](https://huggingface.co/xinxin66/RepBlend)
 ## 📖 Introduction
 <p align="center">
   <img src="imgs/problem.png" alt="problem" title="problem" width="700">
@@ -41,20 +40,22 @@ To get started, follow these instructions to set up the environment and install 
 ## 🚀 Usage
 
 Here’s how to use RepBlend for Multimodal Dataset Distillation:
+
+First， download pretrained weights and datasets to corresponding foilders:
 ### Pretrained Weights
-The checkpoints for all experimental networks are available from their respective official repositories. For convenience, we have also provided them together [here](https://huggingface.co/xinxin66/RepBlend).
+The checkpoints for all experimental networks are available from their respective official repositories. For convenience, we have also provided them together [🤗 here](https://huggingface.co/xinxin66/RepBlend).
 Once downloaded, put them in `distill_utils/checkpoints/`.
 
 ### Experimental Datasets
 The dataset hase been validated on various benchmarks, you can download from  their respective links. Once downloaded, put them in `distill_utils/data/`.
 | datasets | links| 
 |-----|-----|
-| Flickr30K | [images](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset), [annotations](https://huggingface.co/xinxin66/RepBlend/)|
-| COCO | [images](https://cocodataset.org/#download), [annotations](https://huggingface.co/xinxin66/RepBlend) |
-|LLaVA-cc3m|[images](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md), [annotations](https://huggingface.co/xinxin66/RepBlend)|
+| Flickr30K | [images](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset), [🤗 annotations](https://huggingface.co/xinxin66/RepBlend/)|
+| COCO | [images](https://cocodataset.org/#download), [🤗 annotations](https://huggingface.co/xinxin66/RepBlend) |
+|LLaVA-cc3m|[images](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md), [🤗 annotations](https://huggingface.co/xinxin66/RepBlend)|
 
 ### Generate Expert Trajectories
-You can generate expert trajectories by running the `scripts/buffer.sh`, or alternatively, download our [pre-generated trajectories](https://huggingface.co/xinxin66/RepBlend) for faster reproduction.
+You can generate expert trajectories by running the `scripts/buffer.sh`, or alternatively, download our [pre-generated trajectories](🤗 https://huggingface.co/xinxin66/RepBlend) for faster reproduction.
 ```
 bash scripts/buffer.sh
 ```
