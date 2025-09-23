@@ -57,16 +57,12 @@ The dataset hase been validated on various benchmarks, you can download from  th
 ### Generate Expert Trajectories
 You can generate expert trajectories by running the `scripts/buffer.sh`, or alternatively, download our [pre-generated trajectories]() for faster reproduction.
 ```
-CUDA_VISIBLE_DEVICES=0;
-python buffer.py \
-    --dataset=flickr \  # choose from 'fliker' and 'coco'
-    --train_epochs=10 \
-    --num_experts=20 \
-    --buffer_path='buffer' \
-    --image_encoder=nfnet \
-    --text_encoder=bert \
-    --image_size=224
+bash scripts/buffer.sh
 ```
+
+### Distill Multimodal Dataset
+
+
 
 ## 📊 Results
 
