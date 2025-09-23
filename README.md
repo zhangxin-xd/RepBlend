@@ -54,8 +54,8 @@ The dataset hase been validated on various benchmarks, you can download from  th
 | COCO | [images](https://cocodataset.org/#download), [annotations](https://drive.google.com/drive/folders/1fnUHCyRsvsc27LPPoWxP4XvEiqZTV4hj?usp=sharing) |
 |LLaVA-cc3m|[images](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md), [annotations](https://drive.google.com/drive/folders/1b8S0sJmyqRaAioL9oZGeIW8_EPx0iAzi?usp=sharing)|
 
-### Generate Expert Buffer
-You can generate expert trajectories by running the `sh/buffer.sh`, or alternatively, download our pre-generated trajectories for faster reproduction.
+### Generate Expert Trajectories
+You can generate expert trajectories by running the `sh/buffer.sh`, or alternatively, download our [pre-generated trajectories]() for faster reproduction.
 
 
 ## 📊 Results
