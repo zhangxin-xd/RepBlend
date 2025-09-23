@@ -55,8 +55,18 @@ The dataset hase been validated on various benchmarks, you can download from  th
 |LLaVA-cc3m|[images](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md), [annotations](https://drive.google.com/drive/folders/1b8S0sJmyqRaAioL9oZGeIW8_EPx0iAzi?usp=sharing)|
 
 ### Generate Expert Trajectories
-You can generate expert trajectories by running the `sh/buffer.sh`, or alternatively, download our [pre-generated trajectories]() for faster reproduction.
-
+You can generate expert trajectories by running the `scripts/buffer.sh`, or alternatively, download our [pre-generated trajectories]() for faster reproduction.
+```
+CUDA_VISIBLE_DEVICES=0;
+python buffer.py \
+    --dataset=flickr \  # choose from 'fliker' and 'coco'
+    --train_epochs=10 \
+    --num_experts=20 \
+    --buffer_path='buffer' \
+    --image_encoder=nfnet \
+    --text_encoder=bert \
+    --image_size=224
+```
 
 ## 📊 Results
 
