@@ -59,21 +59,23 @@ You can generate expert trajectories by running the `scripts/buffer.sh`, or alte
 ```
 bash scripts/buffer.sh
 ```
-
 ### Distill Multimodal Dataset
-
-
+You can distill multimodal datasets with RepBlend by running `scripts/distill_coco_repblend.sh` and `scripts/distill_flickr_repblend.sh`.
+```
+bash scripts/distill_coco_repblend.sh
+bash scripts/distill_flickr_repblend.sh
+```
 
 ## 📊 Results
 
 Our experiments demonstrate the effectiveness of the proposed approach across various benchmarks. 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="imgs/results 1.png" alt="Results 1" width="600"/>
+    <img src="imgs/results 1.png" alt="Results 1" width="800"/>
 </div>
 <br>
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="imgs/table 1.png" alt="table 1" width="300"/>
-    <img src="imgs/table 2.png" alt="table 2" width="300"/>
+    <img src="imgs/table 1.png" alt="table 1" width="400"/>
+    <img src="imgs/table 2.png" alt="table 2" width="400"/>
 </div>
 
 For detailed experimental results and further analysis, please refer to the full paper.
