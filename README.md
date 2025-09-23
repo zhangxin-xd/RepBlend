@@ -41,19 +41,19 @@ To get started, follow these instructions to set up the environment and install 
 
 Here’s how to use RepBlend for Multimodal Dataset Distillation:
 ### Pretrained Weights
-The checkpoints for all experimental networks are available from their respective official repositories. For convenience, we have also provided them together [here](https://drive.google.com/drive/folders/1FVwpyANNMWMEvM8X5pLYQzgPoblqkmXh?usp=sharing).
+The checkpoints for all experimental networks are available from their respective official repositories. For convenience, we have also provided them together [here](https://huggingface.co/xinxin66/RepBlend).
 Once downloaded, put them in `distill_utils/checkpoints/`.
 
 ### Experimental Datasets
 The dataset hase been validated on various benchmarks, you can download from  their respective links. Once downloaded, put them in `distill_utils/data/`.
 | datasets | links| 
 |-----|-----|
-| Flickr30K | [images](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset), [annotations](https://drive.google.com/drive/folders/1qj3Se9GqalufkrhU0qN2KOMob5eyGkAc?usp=drive_link)|
-| COCO | [images](https://cocodataset.org/#download), [annotations](https://drive.google.com/drive/folders/1fnUHCyRsvsc27LPPoWxP4XvEiqZTV4hj?usp=sharing) |
-|LLaVA-cc3m|[images](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md), [annotations](https://drive.google.com/drive/folders/1b8S0sJmyqRaAioL9oZGeIW8_EPx0iAzi?usp=sharing)|
+| Flickr30K | [images](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset), [annotations](https://huggingface.co/xinxin66/RepBlend/)|
+| COCO | [images](https://cocodataset.org/#download), [annotations](https://huggingface.co/xinxin66/RepBlend) |
+|LLaVA-cc3m|[images](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md), [annotations](https://huggingface.co/xinxin66/RepBlend)|
 
 ### Generate Expert Trajectories
-You can generate expert trajectories by running the `scripts/buffer.sh`, or alternatively, download our [pre-generated trajectories](https://drive.google.com/drive/folders/1PQYDDGHpLVKlU9RX_YFzJGLg1PkPR0Oi?usp=sharing) for faster reproduction.
+You can generate expert trajectories by running the `scripts/buffer.sh`, or alternatively, download our [pre-generated trajectories](https://huggingface.co/xinxin66/RepBlend) for faster reproduction.
 ```
 bash scripts/buffer.sh
 ```
