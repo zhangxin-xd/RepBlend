@@ -1,5 +1,5 @@
 # 🌟 Beyond Modality Collapse: Representations Blending for Multimodal Dataset Distillation
-# NeurIPS 2025 (Rating: 4445)
+# NeurIPS 2025 
 > [Beyond Modality Collapse: Representations Blending for Multimodal Dataset Distillation](https://arxiv.org/pdf/2505.14705?).<br>
 > [Xin Zhang](https://zhangxin-xd.github.io/), Ziruo Zhang, [Jiawei Du](https://scholar.google.com/citations?user=WrJKEzEAAAAJ&hl=zh-CN), [Zuozhu Liu](https://person.zju.edu.cn/en/lzz), [Joey Tianyi Zhou](https://joeyzhouty.github.io/) <br>
 > Agency for Science, Technology, and Research (ASTAR), Singapore <br>
