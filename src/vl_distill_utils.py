@@ -47,7 +47,7 @@ def nearest_neighbor(sentences, query_embeddings, database_embeddings):
     return nearest_neighbors
 
 
-def get_images_texts(n, dataset, args, i_have_indices=None):
+def get_random_images_texts(n, dataset, args, i_have_indices=None):
     """Get random n images and corresponding texts from the dataset.
 
     Args:
